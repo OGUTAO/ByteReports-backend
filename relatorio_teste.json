@@ -1,0 +1,61 @@
+{
+    "placa_mae": {
+        "fabricante": "Desconhecido",
+        "modelo": "Desconhecido"
+    },
+    "cpu": {
+        "nome": "AMD Ryzen 7 5700U with Radeon Graphics",
+        "uso_medio_porcento": 23.2
+    },
+    "ram": {
+        "total_gb": 11.35,
+        "uso_medio_porcento": 91.9,
+        "pentes_fisicos": [],
+        "erro": "<x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>"
+    },
+    "armazenamento": {
+        "discos_fisicos": [],
+        "particoes": [
+            {
+                "letra": "C:",
+                "total_gb": 468.1,
+                "livre_gb": 357.26,
+                "uso_porcento": 23.7
+            },
+            {
+                "letra": "D:",
+                "total_gb": 8.0,
+                "livre_gb": 5.84,
+                "uso_porcento": 27.0
+            }
+        ]
+    },
+    "video": {
+        "placas": []
+    },
+    "diagnostico_e_sugestoes": {
+        "Trabalho Leve (Navegação, Pacote Office)": [
+            "✅ PERFEITO: Memória RAM adequada. O sistema possui capacidade suficiente para rodar o sistema operacional, antivírus, planilhas e várias abas de navegador simultaneamente sem gargalos."
+        ],
+        "Trabalho Médio (Multitarefas, Sistemas Web)": [
+            "⚠️ AVISO: Para uso intenso de multitarefas (ex: abas pesadas no navegador, softwares de comunicação como Teams/Slack e planilhas complexas simultâneas), 16GB de RAM é o novo padrão do mercado para evitar lentidão."
+        ],
+        "Trabalho Pesado (Programação, VMs, Dados)": [
+            "⚠️ CRÍTICO: Máquinas virtuais (como Docker), bancos de dados locais e compiladores (como Visual Studio) exigem no mínimo 16GB, sendo 32GB o cenário ideal para não comprometer a produtividade com travamentos.",
+            "⚠️ AVISO: Trabalhos com processamento de dados massivos, Machine Learning ou emulações visuais sofrerão muito sem uma placa de vídeo dedicada para dividir a carga de processamento com o processador principal."
+        ],
+        "Jogos": [
+            "⚠️ CRÍTICO: Ausência de GPU Dedicada. Jogos modernos e pesados exigem uma placa de vídeo dedicada para renderizar gráficos complexos. O vídeo integrado deste computador não possui força de processamento gráfico para jogos atuais pesados, servindo apenas para jogos muito leves (e-sports) em qualidades baixas.",
+            "💡 SUGESTÃO: Como este computador (provavelmente um notebook) não possui placa dedicada, a melhor solução para jogos pesados é assinar serviços de Cloud Gaming (como Xbox Cloud ou GeForce Now), onde o jogo roda na nuvem. Outra alternativa, caso possua porta Thunderbolt, é o uso de uma eGPU (Placa de vídeo externa).",
+            "⚠️ AVISO: Jogos atuais exigem 16GB de RAM. Com menos que isso, o computador usará o disco rígido como memória virtual de socorro, causando os famosos 'engasgos' e quedas bruscas de FPS durante a jogatina."
+        ],
+        "Gravação de Vídeos (Streaming)": [
+            "⚠️ CRÍTICO: Para gravação de tela ou transmissões ao vivo (OBS Studio), uma placa de vídeo dedicada possui chips físicos exclusivos para codificar o vídeo (como o NVENC). Sem isso, todo o peso vai para o processador, causando travamentos no sistema inteiro durante a gravação.",
+            "⚠️ AVISO: Transmitir e executar outras tarefas simultaneamente exige altíssimo consumo de RAM. 16GB é o mínimo absoluto para garantir que a gravação não corrompa ou trave por falta de memória temporária."
+        ],
+        "Design e Edição": [
+            "⚠️ CRÍTICO: Softwares profissionais como Adobe Premiere, After Effects e Blender dependem fortemente de aceleração gráfica por hardware. O uso exclusivo de vídeo integrado tornará a renderização de projetos extremamente lenta e deixará a área de trabalho do software travada.",
+            "💡 SUGESTÃO: Edição de vídeos em 4K, modelagem 3D complexa e manipulação de imagens em altíssima resolução devoram memória. Para uso profissional diário sem estresse, recomenda-se fortemente o upgrade para 32GB de RAM ou mais."
+        ]
+    }
+}

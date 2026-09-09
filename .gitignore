@@ -1,0 +1,21 @@
+# Pastas de ambiente e dependências
+node_modules/
+dist/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Arquivos de sistema/IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Arquivos de log ou banco de dados local
+*.log
+*.db
+*.sqlite3
+
+# Arquivo de variáveis de ambiente (se tiver)
+.env
